@@ -1,0 +1,34 @@
+{
+	"name" : "stinger/moment-js-bundle",
+	"type" : "symfony-bundle",
+	"description" : "Symfony2 Bundle Moment.js - Parse, validate, manipulate, and display dates in JavaScript",
+	"keywords" : [
+		"moment",
+		"date",
+		"time",
+		"parse",
+		"format",
+		"validate",
+		"i18n",
+		"l10n",
+		"ender",
+		"symfony"
+	],
+	"homepage" : "http://momentjs.com",
+	"license" : "MIT",
+	"authors" : [{
+			"name" : "Florian Meyer",
+			"email" : "florian.meyer@stinger-soft.net",
+			"homepage" : "http://www.stinger-soft.net"
+		}
+	],
+	"require" : {
+		"symfony/framework-bundle" : ">=2.1"
+	},
+	"autoload" : {
+		"psr-0" : {
+			"Stinger\\MomentJsBundle" : ""
+		}
+	},
+	"target-dir" : "Stinger/MomentJsBundle"
+}
