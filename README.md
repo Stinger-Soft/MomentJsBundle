@@ -29,7 +29,7 @@ public function registerBundles()
 {
     $bundles = array(
         // ...
-        new Stinger\VisJsBundle\StingerMomentJsBundle(),
+        new Stinger\MomentJsBundle\StingerMomentJsBundle(),
         // ...
     );
 }
